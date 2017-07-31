@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/7/31 10:29:34。
+     1>项目“C:\Users\Li\Desktop\OneCameraDemo - 副本\OneCameraDemo\OneCameraDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2012\VC\bin\CL.exe /c /IF:\OpenCV\opencv\build\include /IF:\OpenCV\opencv\build\include\opencv /IF:\OpenCV\opencv\build\include\opencv2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OneCameraDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Calibration.cpp OneCameraDemo.cpp
+         OneCameraDemo.cpp
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\onecamerademo.cpp(118): warning C4018: “>”: 有符号/无符号不匹配
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\onecamerademo.cpp(77): warning C4101: “distance”: 未引用的局部变量
+         Calibration.cpp
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\calibration.cpp(38): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\calibration.cpp(28): warning C4101: “N”: 未引用的局部变量
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\calibration.cpp(38): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\li\desktop\onecamerademo - 副本\onecamerademo\calibration.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         F:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Li\Desktop\OneCameraDemo - 副本\Debug\OneCameraDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\OpenCV\opencv\build\x86\vc11\lib opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Li\Desktop\OneCameraDemo - 副本\Debug\OneCameraDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Li\Desktop\OneCameraDemo - 副本\Debug\OneCameraDemo.lib" /MACHINE:X86 Debug\Calibration.obj
+         Debug\CompareNum.obj
+         Debug\Mark.obj
+         Debug\OneCameraDemo.obj
+         Debug\ORBTrack.obj
+         Debug\stdafx.obj
+         OneCameraDemo.vcxproj -> C:\Users\Li\Desktop\OneCameraDemo - 副本\Debug\OneCameraDemo.exe
+     1>已完成生成项目“C:\Users\Li\Desktop\OneCameraDemo - 副本\OneCameraDemo\OneCameraDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.98
